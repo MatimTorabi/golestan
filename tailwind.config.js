@@ -2,8 +2,16 @@
 export default {
   content: ['./*html'],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "mobile": "340px",
+        "tablet": "640px",
+        "desktop": "1000px",
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 }
 
