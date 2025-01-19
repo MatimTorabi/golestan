@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: Yekan;
+  src: url(../../public/fonts/Iran\ Sans\ Light.ttf);
+}
+:root {
+  --fontFamily: Yekan;
+}
