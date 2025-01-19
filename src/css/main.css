@@ -1529,6 +1529,19 @@ html {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   }
 
+  .mobile\:bg-\[\] {
+    background-color: ;
+  }
+
+  .mobile\:bg-\[bg-\[\#252525\]\] {
+    background-color: bg-[#252525];
+  }
+
+  .mobile\:bg-\[\#252525\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 37 37 / var(--tw-bg-opacity, 1));
+  }
+
   .mobile\:bg-\[url\(\'\/public\/images\/header\/header-back\.jpg\'\)\] {
     background-image: url('/public/images/header/header-back.jpg');
   }
@@ -2118,6 +2131,11 @@ html {
   .desktop\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  }
+
+  .desktop\:bg-\[\#252525\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(37 37 37 / var(--tw-bg-opacity, 1));
   }
 
   .desktop\:bg-\[url\(\'\/public\/images\/header\/header-back\.jpg\'\)\] {
