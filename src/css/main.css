@@ -1533,6 +1533,10 @@ html {
     background-image: url('/public/images/header/header-back.jpg');
   }
 
+  .mobile\:bg-\[url\(\'\/public\/images\/header\/header-back\.png\'\)\] {
+    background-image: url('/public/images/header/header-back.png');
+  }
+
   .mobile\:p-0 {
     padding: 0px;
   }
@@ -2118,6 +2122,34 @@ html {
 
   .desktop\:bg-\[url\(\'\/public\/images\/header\/header-back\.jpg\'\)\] {
     background-image: url('/public/images/header/header-back.jpg');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/header-back\.\'\)\] {
+    background-image: url('/public/images/header/header-back.');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/header-back\'\)\] {
+    background-image: url('/public/images/header/header-back');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/\'\)\] {
+    background-image: url('/public/images/header/');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/header\'\)\] {
+    background-image: url('/public/images/header/header');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/header-bla\'\)\] {
+    background-image: url('/public/images/header/header-bla');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/header-black\'\)\] {
+    background-image: url('/public/images/header/header-black');
+  }
+
+  .desktop\:bg-\[url\(\'\/public\/images\/header\/header-black\.png\'\)\] {
+    background-image: url('/public/images/header/header-black.png');
   }
 
   .desktop\:pr-\[35px\] {
