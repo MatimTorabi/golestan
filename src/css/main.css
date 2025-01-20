@@ -1292,12 +1292,20 @@ input.tab:checked + .tab-content,
   width: 93px;
 }
 
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-center {
@@ -1677,6 +1685,10 @@ input.tab:checked + .tab-content,
     height: auto;
   }
 
+  .mobile\:h-\[1px\] {
+    height: 1px;
+  }
+
   .mobile\:w-\[100\%\] {
     width: 100%;
   }
@@ -1695,6 +1707,10 @@ input.tab:checked + .tab-content,
 
   .mobile\:w-\[315px\] {
     width: 315px;
+  }
+
+  .mobile\:w-\[98\%\] {
+    width: 98%;
   }
 
   .mobile\:cursor-pointer {
@@ -1801,6 +1817,14 @@ input.tab:checked + .tab-content,
 
   .mobile\:p-4 {
     padding: 1rem;
+  }
+
+  .mobile\:p-1 {
+    padding: 0.25rem;
+  }
+
+  .mobile\:p-2 {
+    padding: 0.5rem;
   }
 
   .mobile\:px-4 {
