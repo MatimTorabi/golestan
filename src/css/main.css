@@ -769,6 +769,34 @@ html {
   }
 }
 
+.footer {
+  display: grid;
+  width: 100%;
+  grid-auto-flow: row;
+  place-items: start;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  row-gap: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.footer > * {
+  display: grid;
+  place-items: start;
+  gap: 0.5rem;
+}
+
+@media (min-width: 48rem) {
+  .footer {
+    grid-auto-flow: column;
+  }
+
+  .footer-center {
+    grid-auto-flow: row dense;
+  }
+}
+
 .link {
   cursor: pointer;
   text-decoration-line: underline;
@@ -1427,6 +1455,18 @@ html {
   background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[ur\] {
+  background-color: ur;
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
 .bg-\[url\(\'\/public\/images\/cooking\/img-1\.png\'\)\] {
   background-image: url('/public/images/cooking/img-1.png');
 }
@@ -1453,6 +1493,58 @@ html {
 
 .bg-\[url\(\'\/public\/images\/footer\/img-7\.png\'\)\] {
   background-image: url('/public/images/footer/img-7.png');
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/foo\'\)\] {
+  background-image: url('/foo');
+}
+
+.bg-\[url\(\'\/foote\'\)\] {
+  background-image: url('/foote');
+}
+
+.bg-\[url\(\'\/footer\/\'\)\] {
+  background-image: url('/footer/');
+}
+
+.bg-\[url\(\'\/footer\/header-back\.png\'\)\] {
+  background-image: url('/footer/header-back.png');
+}
+
+.bg-\[url\(\'\/footer\/img-1\.png\'\)\] {
+  background-image: url('/footer/img-1.png');
+}
+
+.bg-\[url\(\'\/footer\/img-3\.png\'\)\] {
+  background-image: url('/footer/img-3.png');
+}
+
+.bg-\[url\(\'\/footer\/img-4\.png\'\)\] {
+  background-image: url('/footer/img-4.png');
+}
+
+.bg-\[url\(\'\/footer\/img-5\.png\'\)\] {
+  background-image: url('/footer/img-5.png');
+}
+
+.bg-\[url\(\'\/footer\/img-6\.png\'\)\] {
+  background-image: url('/footer/img-6.png');
+}
+
+.bg-\[url\(\'\/footer\/img-7\.png\'\)\] {
+  background-image: url('/footer/img-7.png');
 }
 
 .bg-cover {
@@ -1749,6 +1841,30 @@ html {
 
 .hover\:bg-\[url\(\'\/public\/images\/footer\/img-9\.png\'\)\]:hover {
   background-image: url('/public/images/footer/img-9.png');
+}
+
+.hover\:bg-\[url\(\'\/footer\/img-10\.png\'\)\]:hover {
+  background-image: url('/footer/img-10.png');
+}
+
+.hover\:bg-\[url\(\'\/footer\/img-11\.png\'\)\]:hover {
+  background-image: url('/footer/img-11.png');
+}
+
+.hover\:bg-\[url\(\'\/footer\/img-12\.png\'\)\]:hover {
+  background-image: url('/footer/img-12.png');
+}
+
+.hover\:bg-\[url\(\'\/footer\/img-2\.png\'\)\]:hover {
+  background-image: url('/footer/img-2.png');
+}
+
+.hover\:bg-\[url\(\'\/footer\/img-8\.png\'\)\]:hover {
+  background-image: url('/footer/img-8.png');
+}
+
+.hover\:bg-\[url\(\'\/footer\/img-9\.png\'\)\]:hover {
+  background-image: url('/footer/img-9.png');
 }
 
 .hover\:text-white:hover {
@@ -2059,6 +2175,10 @@ html {
   .mobile\:bg-white {
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  }
+
+  .mobile\:bg-\[url\(\'\/footer\/header-back\.png\'\)\] {
+    background-image: url('/footer/header-back.png');
   }
 
   .mobile\:object-cover {
