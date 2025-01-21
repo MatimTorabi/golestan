@@ -15,7 +15,7 @@
   <body>
 
     <!-- #region project-->
-    <div class="wrapper">
+    <div id="goToTop" class="wrapper">
 
       <!-- #region header-->
       <header class="header mobile:z-[10000] mobile:box-border mobile:p-0 mobile:w-[100%] mobile:h-[170px]  mobile:sticky mobile:top-0 mobile:left-0 desktop:z-[10000] desktop:sticky desktop:top-0 desktop:left-0 desktop:flex desktop:justify-center desktop:w-[100%] desktop:h-[100px] desktop:bg-[#252525]">
@@ -349,6 +349,18 @@
       </div>
       <!-- #endregion -->
       
+      <!-- #region parallax-->
+      <div class="w-[100%] h-[250px] bg-[url('/public/images/cooking/img-1.png')] bg-no-repeat bg-center bg-fixed bg-cover"></div>
+      <!-- #endregion -->
+
+      <!-- #region magale -->
+      <div class="mobile:w-[100%] mobile:h-auto mobile:p-5 tablet:w-[100%] tablet:h-[120px] tablet:flex tablet:justify-start desktop:w-[100%] desktop:h-[120px] desktop:flex desktop:justify-start items-center">
+        <div class="mobile:[100%] mobile:h-auto mobile:flex flex-col mobile:gap-4 tablet:w-[680px] tablet:h-[44px] tablet:flex tablet:gap-4 tablet:flex-col desktop:w-[680px] desktop:h-[44px] desktop:flex desktop:flex-col desktop:gap-4 justify-center">
+          <h2 class="text-[#ff0000] text-[20px] font-['Yekan'] font-bold tablet:mr-7 desktop:mr-7">مجله گلستان</h2>
+        </div>
+      </div>
+      <!-- #endregion -->
+
       <!-- #region cared-->
       <section class="mobile:w-[100%] mobile:h-auto mobile:p-12 mobile:box-border mobile:bg-[#cde4b0] desktop:w-[100%] desktop:h-[700px] desktop:bg-[#cde4b0]">
         <div class="mobile:gap-6 mobile:flex mobile:flex-col mobile:items-center tablet:flex tablet:flex-row tablet:justify-center tablet:gap-[15px] desktop:flex desktop:flex-row desktop:justify-center desktop:gap-[15px]">
@@ -442,8 +454,28 @@
       </section>
       <!-- #endregion -->
 
+      <!-- #region company golestan -->
+      <section class="bg-[#105153] relative w-[100%] h-[620px]">
+        <div class="w-[100%] h-[600px] flex flex-nowrap flex-col justify-center items-center gap-2">
+          <h2 class="font-['Yekan'] font-thin text-[18px] leading-[35px] text-[#D5ECE1]">مسئوليت‌های اجتماعی شركت گلستان</h2>
+          <div class="bg-[#00d8df] h-[1px] w-[100%]"></div>
+          <h2 class="font-['Yekan'] font-normal text-[20px] leading-9 text-[#00d8df]">
+            <span class="font-['Num'] font-normal text-[30px] leading-9 text-[#009da2]">Golestan</span>
+            Social Responsibility
+          </h2>
+          <h2 class="font-['Num'] font-thin text-[17px] leading-[17px] text-[#BCBEC0]">Mahdi Hospital</h2>
+        </div>
+        <div class="bg-[#E9D69F] w-[100%] h-[20px]"></div>
+        <div class="flex justify-center">
+            <div class="absolute bottom-[-15%]" style="box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.1);">
+              <img src="./public/images/company/img-1.jpg" alt="" class="w-[395px] object-cover">
+            </div>
+        </div>
+      </section>
+      <!-- #endregion -->
+
       <!-- #region go-to-top -->
-      <a href="#" class="text-[18px] w-[40px] h-[40px] opacity-[0.4] bg-[#2b2b2b] fixed left-5 bottom-5 flex justify-center items-center z-[99] rounded-[2px] border-[1px] border-solid border-white hover:opacity-100 transition-all duration-300 ease-linear">
+      <a href="#goToTop" class="text-[18px] w-[40px] h-[40px] opacity-[0.4] bg-[#2b2b2b] fixed left-5 bottom-5 flex justify-center items-center z-[99] rounded-[2px] border-[1px] border-solid border-white hover:opacity-100 transition-all duration-300 ease-linear">
         <img src="./public/images/page/up-arrow.svg" class="w-[30px] h-[30px]" alt="">
       </a>
       <!-- #endregion -->

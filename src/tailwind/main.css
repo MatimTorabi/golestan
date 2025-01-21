@@ -6,6 +6,11 @@
   font-family: Yekan;
   src: url(../../public/fonts/Iran\ Sans\ Light.ttf);
 }
+@font-face {
+  font-family: Num;
+  src: url(../../public/fonts/IRANSansWeb-Light.woff2);
+}
 :root {
   --fontFamily: Yekan;
+  --fontNumber: Num;
 }
