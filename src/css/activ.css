@@ -7,3 +7,6 @@
 &:hover .submenu{
   display: block;
 }
+html,body{
+  scroll-behavior: smooth;
+}
