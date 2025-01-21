@@ -10,3 +10,6 @@
 html,body{
   scroll-behavior: smooth;
 }
+.paralax{
+  background-image: url("../../cooking/img-1.png");
+}
