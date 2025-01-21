@@ -1102,6 +1102,38 @@ html {
   margin-top: 2.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[70px\] {
+  margin-top: 70px;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
+}
+
 .block {
   display: block;
 }
@@ -1388,6 +1420,11 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\/public\/images\/cooking\/img-1\.png\'\)\] {
@@ -1782,6 +1819,14 @@ html {
     margin-top: 1rem;
   }
 
+  .mobile\:mt-\[90px\] {
+    margin-top: 90px;
+  }
+
+  .mobile\:mt-\[95px\] {
+    margin-top: 95px;
+  }
+
   .mobile\:box-border {
     box-sizing: border-box;
   }
@@ -1924,6 +1969,10 @@ html {
 
   .mobile\:w-\[98\%\] {
     width: 98%;
+  }
+
+  .mobile\:w-\[133px\] {
+    width: 133px;
   }
 
   .mobile\:cursor-pointer {
@@ -2155,6 +2204,10 @@ html {
     margin-top: 2.75rem;
   }
 
+  .tablet\:mt-0 {
+    margin-top: 0px;
+  }
+
   .tablet\:box-border {
     box-sizing: border-box;
   }
@@ -2259,6 +2312,22 @@ html {
     height: 95px;
   }
 
+  .tablet\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .tablet\:h-\[640px\] {
+    height: 640px;
+  }
+
+  .tablet\:h-\[550px\] {
+    height: 550px;
+  }
+
+  .tablet\:h-\[530px\] {
+    height: 530px;
+  }
+
   .tablet\:w-\[100\%\] {
     width: 100%;
   }
@@ -2315,12 +2384,24 @@ html {
     flex-wrap: nowrap;
   }
 
+  .tablet\:items-start {
+    align-items: flex-start;
+  }
+
+  .tablet\:items-end {
+    align-items: flex-end;
+  }
+
   .tablet\:items-center {
     align-items: center;
   }
 
   .tablet\:justify-start {
     justify-content: flex-start;
+  }
+
+  .tablet\:justify-end {
+    justify-content: flex-end;
   }
 
   .tablet\:justify-center {
@@ -2434,6 +2515,10 @@ html {
 
   .desktop\:mt-4 {
     margin-top: 1rem;
+  }
+
+  .desktop\:mt-0 {
+    margin-top: 0px;
   }
 
   .desktop\:box-border {
@@ -2568,6 +2653,26 @@ html {
     height: 95px;
   }
 
+  .desktop\:h-\[640px\] {
+    height: 640px;
+  }
+
+  .desktop\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .desktop\:h-\[00px\] {
+    height: 00px;
+  }
+
+  .desktop\:h-\[550px\] {
+    height: 550px;
+  }
+
+  .desktop\:h-\[530px\] {
+    height: 530px;
+  }
+
   .desktop\:w-\[100\%\] {
     width: 100%;
   }
@@ -2682,6 +2787,10 @@ html {
 
   .desktop\:w-\[98\%\] {
     width: 98%;
+  }
+
+  .desktop\:w-\[133px\] {
+    width: 133px;
   }
 
   .desktop\:flex-row {
